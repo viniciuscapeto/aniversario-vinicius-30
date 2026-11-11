@@ -528,7 +528,7 @@ body{background:var(--noite);color:var(--tinta);font-family:var(--pixel);display
   $('titulo').addEventListener('click',e=>{if(!e.target.closest('button'))ligar()});
   function novoJogo(){jogador.nome='';jogador.resposta='';jogador.p2='';salvar();abertura()}
   function abertura(){
-    dizer(['E aí! Que bom que você chegou até aqui.','Esse ano eu chego no level 30 e vou comemorar do jeito certo: churrasco no sítio.','Mas antes de começar... preciso saber quem é você.'],()=>pedirNome('p1'));
+    dizer(['E aí, que bom te ver! Tenho um convite especial pra você.','Esse ano eu chego no level 30 e vou comemorar do jeito certo: churras!','Mas antes de começar... preciso saber quem é você.'],()=>pedirNome('p1'));
   }
 
   /* ===== NOME ===== */
